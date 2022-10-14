@@ -24,6 +24,22 @@ const localizationStrings = {
       </p>`;
     },
   },
+  en: {
+    conformance: "Conformiteit",
+    normativity:
+      "Zoals secties die gemarkeerd zijn als non-normatief, zijn ook alle " +
+      "schrijfrichtlijnen, diagrammen, voorbeelden en noten in deze specificatie " +
+      "non-normatief. Al het overige in deze specificatie is normatief.",
+    keywordInterpretation(keywords, plural) {
+      return html`<p>
+        ${plural ? "De sleutelwoorden in dit document dienen" : "Het sleutelwoord in " +
+        "dit document dient"} te worden geïnterpreteerd zoals beschreven in 
+        <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
+        ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
+        wanneer, en enkel dan, ze gespeld zijn in uitsluiten hoofdletters, zoals hier getoond.
+      </p>`;
+    },
+  },
   de: {
     conformance: "Anforderungen",
     normativity:
