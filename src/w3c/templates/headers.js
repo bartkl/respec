@@ -105,6 +105,29 @@ const localizationStrings = {
     latest_editors_draft: "Laatste werkversie:",
     latest_published_version: "Laatst gepubliceerde versie:",
     this_version: "Deze versie:",
+    archives: "archieven",
+    commit_history: "Revisiegeschiedenis",
+    edited_in_place: "gewijzigd op",
+    feedback: "Feedback:",
+    former_editor: "Voormalige redacteur:",
+    former_editors: "Voormalige redacteurs:",
+    history: "Geschiedenis:",
+    implementation_report: "Implementatierapport:",
+    latest_recommendation: "Laatste Recommendation:",
+    message_topic: "… bericht onderwerp …",
+    more_details_about_this_doc: "Meer details over dit document",
+    multiple_alternates(plural) {
+      return `Dit document is ook beschikbaar in ${
+        plural ? "deze non-normatieve formaten" : "dit non-normatieve formaat"
+      }:`;
+    },
+    prev_editor_draft: "Vorige redacteurs conceptversie:",
+    prev_recommendation: "Vorige Recommendation:",
+    prev_version: "Vorige versie:",
+    publication_history: "Publicatiegeschiedenis",
+    test_suite: "Test suite:",
+    this_version: "Deze versie:",
+    your_topic_here: "ONDERWERP HIER",
   },
   es: {
     archives: "archivos",
