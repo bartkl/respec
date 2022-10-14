@@ -38,6 +38,11 @@ const localizationStrings = {
     tests: "测试",
     test: "测试",
   },
+  zh: {
+    missing_test_suite_uri: docLink`Tests gevonden in spec, maar in de ReSpec config ontbreekt ${"[testSuiteURI]."}`,
+    tests: "tests",
+    test: "test",
+  },
 };
 
 const l10n = getIntlData(localizationStrings);

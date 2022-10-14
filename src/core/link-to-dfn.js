@@ -29,6 +29,15 @@ const localizationStrings = {
     },
     duplicateTitle: "This is defined more than once in the document.",
   },
+  nl: {
+    /**
+     * @param {string} title
+     */
+    duplicateMsg(title) {
+      return `Meerdere definities van '${title}'`;
+    },
+    duplicateTitle: "Het document bevat meerdere definities voor dit item.",
+  },
   ja: {
     /**
      * @param {string} title

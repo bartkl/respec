@@ -40,7 +40,7 @@ const localizationStrings = {
   nl: {
     commit_history: "Revisiehistorie",
     file_a_bug: "Dien een melding in",
-    participate: "Doe mee:",
+    participate: "Help mee:",
   },
   es: {
     commit_history: "Historia de cambios",

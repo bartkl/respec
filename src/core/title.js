@@ -18,6 +18,9 @@ const localizationStrings = {
   en: {
     default_title: "No Title",
   },
+  nl: {
+    default_title: "Naamloos",
+  },
   de: {
     default_title: "Kein Titel",
   },

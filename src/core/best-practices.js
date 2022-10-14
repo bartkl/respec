@@ -22,6 +22,9 @@ const localizationStrings = {
   zh: {
     best_practice: "最佳实践 ",
   },
+  nl: {
+    best_practice: "Best Practice",
+  },
 };
 const l10n = getIntlData(localizationStrings);
 const lang = defaultLang in localizationStrings ? defaultLang : "en";
